@@ -1,0 +1,91 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.left{
+    float: left;
+}
+.right{
+    float: right;
+}
+.text-left{
+    text-align: left;
+}
+.text-right{
+    text-align: right;
+}
+.text-center{
+    text-align: center;
+}
+.clear::after{
+    content: "";
+    clear: both;
+    display: block;
+}
+img{
+    max-width: 100%;
+}
+/*main css*/
+.menu ul li {
+    display: inline-block;
+    padding: 3px 10px;
+}
+.menu ul li a {
+    text-decoration: none;
+    color: black;
+}
+.icon {
+    display: inline-block;
+    font-size: 22px;
+    padding: 0 13px;
+    font-weight: 100;
+}
+.image p {
+    color: white;
+    background: gray;
+    padding: 5px;
+    border-radius: 50%;
+    display: block;
+    font-size: 22px;
+}
+
+.content{
+    width: 900px;
+    margin: auto;
+}
+
+.g-s-box {
+    margin-left: 28%;
+    font-size: 17px;
+    color: gray;
+    margin-bottom: 56px;
+    padding: 8px;
+    margin-right: 27%;
+    border: 3px solid #7676;
+    border-radius: 32px;
+}
+.s-part .search {
+    border: none;
+    padding-left: 11px;
+    font-size: 18px;
+    padding-right: 120px;
+}
+.g-menu ul li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+.g-menu ul li span {
+    font-size: 38px;
+}
+span.youtube {
+    color: red;
+}
+span.facebook {
+    color: blue;
+}
+span.twitter {
+    color: deepskyblue;
+}
+span.pinter {
+    color: firebrick;
+}
